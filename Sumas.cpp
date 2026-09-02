@@ -26,7 +26,7 @@ int Sumas::sumaRecursiva(int n) const
     return n + sumaRecursiva(n - 1);
 }
 
-// Suma de 1 hasta n con la fórmula n(n + 1) / 2.
+// Suma de 1 hasta n con la formula n(n + 1) / 2.
 // Complejidad: O(1).
 int Sumas::sumaDirecta(int n) const
 {
